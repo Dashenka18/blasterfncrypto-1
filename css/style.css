@@ -1,0 +1,378 @@
+:root {
+    --Dark-green: rgba(30, 40, 39, 1);
+    --milk: #e2dcde;
+    --Black: #141414;
+    --B-g-color: #fbfbfb;
+    --Main-color: #ffffff;
+    --mint: #899878;
+    --Price-color: rgba(20, 20, 20, .5);
+    --B-g-color-second: #efefef;
+    --footer-agreements-color: #c6cdd1;
+    --transition-dur: .5s cubic-bezier(.4, 0, .2, 1);
+    --hover-focus-color: rgba(251, 251, 251, .5);
+}
+
+
+
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-color: var(--Black);
+    color: var(--milk);
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.h1{
+    color: var(--mint);
+    padding-top: 20px;
+}
+
+.b{
+    color: var(--mint);
+}
+
+.link{
+    color: var(--mint);
+    text-decoration: none;
+}
+
+/* phone 0px-767px */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    
+
+    .blaster-1{
+        font-size: 10px;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .all{
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 8px;
+    }
+
+    .h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .text{
+        padding-left: 15px; 
+        padding-right: 12px;
+        padding-bottom: 5px;
+        margin: 0;
+        font-size: 8px;
+    }
+
+   .worlds{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 20px;
+   }
+
+    .link{
+        font-size: 10px;
+    }
+
+    .methood{
+        display: flex;
+        padding-left: 30px;
+        padding-right: 15px;
+        line-height: 20px;
+}
+
+    .methood-1{
+        padding-bottom: 5px;
+    }
+
+    .methood-2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-size: 10px;
+    }
+
+
+    .methood-double{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    }
+
+    .dsc-1{
+     padding-bottom: 5px;
+     padding-top: 5px;
+    }
+
+    .dsc-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 15px;
+       
+    }
+    
+    .dsc-3, .dsc-4{
+        margin: 0;
+    }
+
+    .dsc{
+        padding-bottom: 40px;
+        font-size: 9px;
+    }
+    
+    .footer-text{
+        font-size: 10px;
+        padding-left: 10px;
+        margin: 0;
+    }
+}
+/* phone/////// */
+
+
+
+/* desktop */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .blaster-1{
+        font-size: 15px;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .all{
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .text{
+        padding-left: 15px; 
+        padding-right: 12px;
+        padding-bottom: 5px;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .worlds{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-bottom: 20px;
+       }
+    
+        .link{
+            font-size: 12px;
+        }
+    
+        .methood{
+            display: flex;
+            padding-left: 30px;
+            padding-right: 15px;
+            line-height: 25px;
+    }
+    
+        .methood-1{
+            padding-bottom: 5px;
+        }
+    
+        .methood-2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        font-size: 13px;
+        }
+
+        .methood-double{
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+            padding-bottom: 20px;
+            font-size: 13px;
+            }
+        
+            .dsc-1{
+             padding-bottom: 5px;
+             padding-top: 5px;
+            }
+        
+            .dsc-2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 30px;
+                padding-right: 15px;
+               
+            }
+            
+            .dsc-3, .dsc-4{
+                margin: 0;
+            }
+        
+            .dsc{
+                padding-bottom: 40px;
+                font-size: 12px;
+            }
+            
+            .footer-text{
+                font-size: 10px;
+                padding-left: 10px;
+                margin: 0;
+            }
+    
+    
+
+}
+/* desktop//////// */
+
+/* pc */
+@media (min-width: 1024px) {
+    .blaster-1{
+        font-size: 15px;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .all{
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        margin: 0;
+        font-size: 28px;
+    }
+
+    .text{
+        padding-left: 15px; 
+        padding-right: 12px;
+        padding-bottom: 5px;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .worlds{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-bottom: 20px;
+       }
+    
+        .link{
+            font-size: 22px;
+        }
+    
+        .methood{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 30px;
+    }
+    
+        .methood-1{
+            padding-bottom: 5px;
+        }
+
+        .methood-2{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+            font-size: 23px;
+            }
+    
+            .methood-double{
+                display: flex;
+                flex-direction: column;
+                padding-left: 200px;
+                padding-bottom: 20px;
+                font-size: 23px;
+                }
+            
+                .dsc-1{
+                 padding-bottom: 5px;
+                 padding-top: 15px;
+                }
+            
+                .dsc-2{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-left: 30px;
+                    padding-right: 15px;
+                   
+                }
+
+                .dsc-3, .dsc-4{
+                    margin: 0;
+                }
+            
+                .dsc{
+                    padding-bottom: 40px;
+                }
+                
+                .footer-text{
+                    font-size: 15px;
+                    padding-left: 10px;
+                    margin: 0;
+                }
+    
+}
+/* pc///// */
+
